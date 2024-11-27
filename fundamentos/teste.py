@@ -231,3 +231,79 @@ lista_c = [1, 2, 3]
 lista_a is lista_b
 lista_b is lista_c
 lista_a is not lista_c
+
+#Builtins
+type(1)
+__builtins__.type('Fala Galera!')
+__builtins__.print(10/3)
+# __builtins__.help(__builtins__.dir)
+
+#a = 7
+# import math
+# dir()
+# dir(__builtins__)
+
+nome = 'João da Silva'
+type(nome)
+__builtins__.len(nome)
+
+dir()
+
+
+#Conversão de tipos
+2 + 3
+'2' + '3'
+# 2 + '3'
+# print(2 + '3')
+
+a = 2
+b = '3'
+
+print(type(a))
+print(type(b))
+
+print(a + int(b))
+print(str(a) + b)
+
+type(str(a))
+
+# print(2 + int('2 legal')) da erro [quem diria :o]
+
+# Coerção automática
+10 / 2 # Gera float
+type(10 / 2)
+10 / 3
+10 // 3
+type(10 // 3) # retorna int
+type(10 // 3.3) # retorna float
+type(10 / 2.5) # retorna float
+2 + True # retorna 3
+2 + False # retorna 2
+type(1 + 2) # int
+type(1 + 2.5) # float
+
+
+# Tipos Numéricos
+dir(int)
+dir(float)
+
+
+a = 5
+b = 2.5
+a / b
+a + b
+a * b
+
+type(a)
+type(a - b)
+
+b.is_integer()
+5.0.is_integer()
+
+dir(int)
+int.__add__(2, 3)
+2 + 3
+
+(-2).__abs__
+abs(-2)
+# type(-2)
