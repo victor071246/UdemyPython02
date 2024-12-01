@@ -1,5 +1,6 @@
 def imprimir(maximo, atual):
-    if atual >= maximo:
+    # condição de parada!
+    if atual < maximo:
         print(atual)
         imprimir(maximo, atual + 1)
 
